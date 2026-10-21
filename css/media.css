@@ -1,0 +1,46 @@
+/* sm */
+@media (min-width: 640px) {
+}
+
+/* md */
+@media (min-width: 768px) {
+  .ourServices .content-box {
+    width: 50%;
+  }
+  .ourPortfolio .ourport-box {
+    width: 50%;
+  }
+  .ClientFeedback .ClientFeedback-content {
+    /* width: 60%; */
+  }
+  .OurBlog .box {
+    width: 30%;
+  }
+}
+
+/* lg */
+@media (min-width: 1024px) {
+  .ourServices .content-box {
+    width: 25%;
+  }
+  .ourPortfolio .ourport-box {
+    width: 50%;
+  }
+  .OurBlog .box {
+    width: 30%;
+  }
+}
+
+/*xl  */
+@media (min-width: 1280px) {
+  .ourServices .content-box {
+    width: 25%;
+  }
+  .ourPortfolio .ourport-box {
+    width: 33.33%;
+  }
+}
+
+/* xxl */
+@media (min-width: 1536px) {
+}
