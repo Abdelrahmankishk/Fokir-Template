@@ -16,6 +16,12 @@
   .Hello .box::after {
     border: none;
   }
+  .hello-content .content-buttons {
+    text-align: center;
+  }
+  .hello-content .content-buttons button {
+    margin-bottom: 10px;
+  }
   .ClientFeedback .ClientFeedback-content .ClientFeedback-img {
     float: none;
     width: 100%;
@@ -46,6 +52,17 @@
     margin-left: 0;
     margin-top: 20;
   }
+  .Hello .box {
+    width: 100%;
+    position: static;
+    margin-bottom: 30px;
+  }
+  .hello-content {
+    width: 100%;
+  }
+  .Hello .box .brder {
+    border: none;
+  }
 }
 @media (min-width: 640px) {
   /* Navbar */
@@ -67,6 +84,17 @@
   .ClientFeedback .ClientFeedback-content .box {
     float: none;
     width: 100%;
+  }
+  .Hello .box {
+    width: 100%;
+    position: static;
+    margin-bottom: 30px;
+  }
+  .hello-content {
+    width: 100%;
+  }
+  .Hello .box .brder {
+    border: none;
   }
   .sm-100 {
     width: 100%;
@@ -117,6 +145,20 @@
 @media (min-width: 1024px) {
   .Hello .box::after {
     border: 8px solid #555555;
+  }
+  .Hello .box {
+    float: left;
+    width: 40%;
+    border-radius: 5px;
+  }
+  .Hello .box .brder {
+    border: 7px solid #555555;
+    border-radius: 5px;
+  }
+  .hello-content {
+    position: relative;
+    float: right;
+    width: 55%;
   }
   .lg-100 {
     width: 100%;

@@ -154,30 +154,27 @@ button:hover {
 
 .Hello .box {
   float: left;
-  width: 50%;
-  padding-left: 100px;
-  overflow: hidden;
+  width: 40%;
+
   border-radius: 5px;
 }
-.Hello .box::after {
-  content: "";
-  width: 409px;
-  height: 504px;
+
+.Hello .box .brder {
   border: 8px solid #555555;
-  border-radius: 5px;
-  position: absolute;
-  top: 80;
-  left: 227;
-  z-index: -1;
-}
-.Hello .box .hello-img {
-  position: relative;
-  display: block;
   border-radius: 5px;
   width: 85%;
 }
+.Hello .box .hello-img {
+  overflow: hidden;
+  position: relative;
+  top: 16px;
+  left: 16px;
+  border-radius: 5px;
+  width: 105%;
+}
 .Hello .box .hello-img img {
   border-radius: 5px;
+  display: block;
   width: 100%;
 }
 
@@ -223,7 +220,7 @@ button:hover {
 .hello-content {
   position: relative;
   float: right;
-  width: 50%;
+  width: 55%;
 }
 
 .hello-content h2 {
@@ -541,9 +538,8 @@ button:hover {
 .OurBlog .box img {
   width: 100%;
 }
-.OurBlog .box iframe {
-  width: 100%;
-  height: 206px;
+.aspect-ratio {
+  aspect-ratio: 16/9;
 }
 .OurBlog .box .text {
   text-align: left;
