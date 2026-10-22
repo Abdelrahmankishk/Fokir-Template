@@ -373,8 +373,6 @@ button:hover {
   color: #ff305b;
 }
 .ourPortfolio .ourport-box {
-  width: 100%;
-  float: left;
   margin-bottom: 30;
   padding: 0 10;
 }
@@ -414,8 +412,8 @@ button:hover {
   text-align: center;
 }
 .icons .icons-content {
-  float: left;
-  width: 25%;
+  margin-bottom: 20px;
+  text-align: center;
 }
 .icons .icons-content i {
   font-size: 24px;
@@ -536,11 +534,9 @@ button:hover {
   padding-bottom: 10;
 }
 .OurBlog .box {
-  float: left;
-  width: 100%;
   background-color: white;
-  padding-bottom: 15;
-  margin: 0 15;
+  margin-bottom: 30;
+  padding: 0 15;
 }
 .OurBlog .box img {
   width: 100%;
@@ -646,8 +642,7 @@ input[type="email"]:focus {
 }
 .ContactUs .form .button {
   text-align: left;
-  position: relative;
-  left: 3%;
+  margin-left: 20;
 }
 .ContactUs .form button {
   padding: 15 20;
