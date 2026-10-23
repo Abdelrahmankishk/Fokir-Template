@@ -122,7 +122,117 @@ button:hover {
   font-family: "Source Sans 3", sans-serif;
   z-index: 1;
 }
-
+.header .content .text-anim::after {
+  content: "";
+  animation: typing 6s infinite;
+  border-right: 2px solid #ffffff;
+  padding-right: 3px;
+}
+/* Designer Developer Animation*/
+@keyframes typing {
+  0% {
+    content: "D";
+  }
+  3% {
+    content: "De";
+  }
+  6% {
+    content: "Des";
+  }
+  9% {
+    content: "Desi";
+  }
+  12% {
+    content: "Desig";
+  }
+  15% {
+    content: "Design";
+  }
+  18% {
+    content: "Designe";
+  }
+  21% {
+    content: "Designer";
+  }
+  24% {
+    content: "Designe";
+  }
+  27% {
+    content: "Design";
+  }
+  30% {
+    content: "Desig";
+  }
+  33% {
+    content: "Desi";
+  }
+  36% {
+    content: "Des";
+  }
+  39% {
+    content: "De";
+  }
+  42% {
+    content: "D";
+  }
+  45% {
+    content: "";
+  }
+  48% {
+    content: "D";
+  }
+  51% {
+    content: "De";
+  }
+  54% {
+    content: "Dev";
+  }
+  57% {
+    content: "Deve";
+  }
+  60% {
+    content: "Devel";
+  }
+  63% {
+    content: "Develo";
+  }
+  66% {
+    content: "Develop";
+  }
+  69% {
+    content: "Develope";
+  }
+  72% {
+    content: "Developer";
+  }
+  75% {
+    content: "Develope";
+  }
+  78% {
+    content: "Develop";
+  }
+  81% {
+    content: "Develo";
+  }
+  84% {
+    content: "Devel";
+  }
+  87% {
+    content: "Deve";
+  }
+  90% {
+    content: "Dev";
+  }
+  93% {
+    content: "De";
+  }
+  96% {
+    content: "D";
+  }
+  100% {
+    content: "";
+  }
+}
 .header .content h3 {
   font-size: 24px;
   color: white;
